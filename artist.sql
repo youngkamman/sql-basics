@@ -33,7 +33,7 @@ LIMIT 5;
 -- Select all artists that start with the word ‘Black’.
 
 
-
+SELECT name FROM artist WHERE name LIKE 'Black%';
 
 
 
